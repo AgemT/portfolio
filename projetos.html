@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meus Projetos</title>
+        
+        <link rel="stylesheet" href="index.css">
+        <style>
+            body {
+                display: flex;
+                justify-content: center;     
+                align-items: flex-start;         
+                padding-top: 20px;
+                min-height: 100vh;
+                background-color: #f5f5f5;
+            }
+
+            .coluna {
+                width: 90%;
+                max-width: 1000px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
+                padding-bottom: 40px;
+            }
+
+            header h1 {
+                text-align: center;
+                color: #333;
+                margin-bottom: 20px;
+                font-size: 2.2rem;
+            }
+
+            .projetos-container {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            .projeto {
+                border-radius: 20px;
+                background-color: rgb(202, 219, 213);
+                padding: 30px;
+                transition: all 0.3s ease;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            }
+
+            .projeto:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+            }
+
+            .projeto h3 a {
+                color: #2a7f62;
+                text-decoration: none;
+                font-size: 1.4rem;
+                transition: color 0.3s ease;
+            }
+
+            .projeto h3 a:hover {
+                color: #1e5a46;
+                text-decoration: underline;
+            }
+
+            .row {
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                margin-top: 15px;
+            }
+
+            .row img {
+                max-width: 50%;
+                height: auto;
+                border-radius: 10px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+
+            .row p {
+                flex: 1;
+                line-height: 1.6;
+                color: #444;
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+        <div class="coluna">
+            <div class="paginas">
+                <ul>
+                    <li><a href="https://agemt.github.io/portfolio/">Início</a></li>
+                    <li><a href="https://agemt.github.io/portfolio/sobre.html">Sobre mim</a></li>
+                    <li><a href="https://agemt.github.io/portfolio/projetos.html">Meus projetos</a></li>
+                </ul>
+            </div>
+
+            <header><h1>Meus Projetos</h1></header>
+
+            <div class="projetos-container">
+                <div class="projeto" id="portfolio">
+                    <h3><a href="https://github.com/AgemT/portfolio">Portfolio</a></h3>
+                    <div class="row">
+                        <img src="portfolio.png" alt="Captura de tela do projeto Portfolio">
+                        <p>Página dedicada a exibir meus trabalhos e projetos profissionais. Desenvolvida com HTML e CSS, apresenta um design limpo e levemente animado para melhor experiência do usuário. Esta página é constantemente atualizada com novos projetos e melhorias.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>

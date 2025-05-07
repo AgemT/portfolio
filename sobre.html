@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sobre mim</title>
+        
+        <link rel="stylesheet" href="index.css">
+
+        <style>
+            body{
+                color: #333;
+                background-color: #d8d8d8;
+                margin: 0;
+                padding-top: 3cm;
+                padding-bottom: 2cm;
+                display: flex;
+                justify-content: center;     
+                min-height: 100vh;
+            }
+
+            header h1 {
+                text-align: center;
+                color: #333;
+            }
+
+            .conteudo {
+                background: rgb(240, 240, 240);
+                border-radius: 10px;
+                padding: 20px;
+                transition: all 0.3s ease;
+            }
+
+            .conteudo:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            }
+
+            .titulos {
+                font-weight: bold;
+                margin-bottom: 15px;
+                color: #444;
+                border-bottom: 1px solid #ddd;
+                padding-bottom: 8px;
+            }
+
+            .informacoes {
+                margin-bottom: 12px;
+                line-height: 1.5;
+            }
+            
+            .ano {
+                font-weight: bold;
+                color: #555;
+            }
+            
+            .lingua-container {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+            
+            .lingua {
+                background: rgba(255, 255, 255, 0.7);
+                padding: 5px 12px;
+                border-radius: 50px;
+                font-size: 0.9rem;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="coluna">
+            <div class="paginas">
+                <ul>
+                    <li><a href="https://agemt.github.io/portfolio/">Inicio</a></li>
+                    <li><a href="https://agemt.github.io/portfolio/sobre.html">Sobre mim</a></li>
+                    <li><a href="https://agemt.github.io/portfolio/projetos.html">Meus projetos</a></li>
+                </ul>
+            </div>
+            <header><h1>Sobre mim</h1></header>
+            
+            <div class="conteudo">
+                <div class="titulos">FORMAÇÃO</div>
+                <div class="informacoes">
+                    <span class="ano">2024 - 2027</span> | Instituto Federal do Paraná<br>
+                    Análise e Desenvolvimento de Sistemas integrado ao ensino médio
+                </div>
+            </div>
+            
+            <div class="conteudo">
+                <div class="titulos">CURSOS COMPLEMENTARES</div>
+                <div class="informacoes">
+                    <span class="ano">2023</span> | CNPq<br>
+                    Programa de Iniciação Científica Jr. - Instituto de Matemática Pura e Aplicada
+                </div>
+                <div class="informacoes">
+                    <span class="ano">2024</span> | Fundação Estudar em associação a Harvard<br>
+                    Introdução à Ciência da Computação (CS50)
+                </div>
+            </div>
+            
+            <div class="conteudo">
+                <div class="titulos">CONDECORAÇÕES</div>
+                <div class="informacoes">
+                    <span class="ano">2023</span> | OBMEP<br>
+                    Olimpíada Brasileira de Matemática <span>(Medalha de Bronze)</span>
+                </div>
+                <div class="informacoes">
+                    <span class="ano">2024</span> | OBLI<br>
+                    Olimpíada Brasileira de Língua Inglesa <span>(Medalha de Ouro)</span>
+                </div>
+            </div>
+            
+            <div class="conteudo">
+                <div class="titulos">IDIOMAS</div>
+                <div class="lingua-container">
+                    <div class="lingua">Língua Inglesa - Fluente</div>
+                    <div class="lingua">Língua Espanhola - Intermediário</div>
+                    <div class="lingua">Língua Brasileira de Sinais - Intermediário</div>
+                    <div class="lingua">Língua Francesa - Básico</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

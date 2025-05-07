@@ -1,0 +1,57 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, 'Courier New', Courier, monospace;
+}
+
+body{
+    margin: 0;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    vertical-align: middle;
+    height: 100vh;
+}
+
+.row{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.coluna{
+    display: flex;               
+    flex-direction: column;      
+    gap: 30px;                   
+    justify-content: center;     
+    align-items: center;           
+    padding-top: 0px;
+    max-width: 800px;
+    width: 90%;
+    padding: 20px;
+}
+
+.paginas ul{
+    opacity: 50%;
+    width: fit-content;
+    padding: 0.5cm;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
+}
+
+.paginas ul li{
+    padding: 8px 12px;         
+    background: rgb(240, 240, 240); 
+    border-radius: 50px; 
+}
+
+.paginas ul li:hover{
+    background: rgb(212, 212, 212); 
+    transform: translateY(-2px);
+}
